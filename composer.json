@@ -1,0 +1,39 @@
+{
+  "name": "opxcms/opx-refreshtoken",
+  "description": "OpxCMS refreshtoken module.",
+  "type": "library",
+  "keywords": [
+    "opxcms",
+    "refresh token",
+    "module"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/opxcms/opx-refreshtoken/issues",
+    "source": "https://github.com/opxcms/opx-refreshtoken"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcms@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "opxcms/opx-foundation": "^1.0.20"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Opx\\RefreshToken\\": "src/"
+    }
+  },
+  "extra": {
+    "opxcms" : {
+      "module": "Modules\\Opx\\RefreshToken\\RefreshToken"
+    }
+  },
+  "minimum-stability": "dev"
+}
